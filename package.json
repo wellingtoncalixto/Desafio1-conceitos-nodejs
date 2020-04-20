@@ -1,14 +1,17 @@
 {
   "name": "DesafioModulo1",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "src/app.js",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon"
+    "start": "nodemon",
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "jest": "^25.4.0",
+    "supertest": "^4.0.2",
     "uuidv4": "^6.0.7"
   },
   "devDependencies": {
